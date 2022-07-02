@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fond__pantalla {
+    background-color: rgba(209, 135, 135, 0.322);
+}
+/* menu navegación */
+.menu__flex{
+    display: flex;
+   justify-content: space-evenly;
+   height: 5rem;
+   
+   
+}
+.menu__ul{
+    display: inline-flex;
+    list-style: none;
+   text-align: center;
+   
+}
+.menu__ul a {
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 0.5px coral solid;
+    color: fuchsia;
+    font-size: 2rem;
+    background-color: rgb(202, 180, 161);
+    
+  
+
+}
+/* titulo h1 */
+.titulo__1{
+    font-family:"Brush Script MT";
+    font-style: oblique;
+    font-size: 6rem;
+    text-align: center;
+    color:darkmagenta;
+    background-color: darksalmon;
+
+}
+/* titulo h2 */
+.titulo__h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: indianred;
+    text-decoration:underline;
+}
+.img__principal {
+    display: flex;
+    justify-content: space-around;
+}
+.img__secu {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20%;
+    width: 20%;
+}
+.img__secu--1 {
+    height: 600px;
+    width: 500px;
+}
+.img__secu img {
+    margin: 2rem;
+    padding: 1rem;
+    border: 0.2rem coral solid;
+}
+
+/* formulario contacto */
+.contacto__net {
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: orangered;
+    background-color: peru;
+}
+.botones__contacto {
+    text-align: center;
+}
+    
+/* promociones */
+.promo__jabones {
+    height: 20%;
+    width: 20%;
+    margin: 3rem;
+    padding: 2rem;
+}
+.promo__jabones p {
+    font-size: 1rem;
+    text-align: justify;
+    background-color: peru;
+    color: white;
+}
+/* productos */
+.productos__jabon {
+    height: 20%;
+    width: 20%;
+    margin: 3rem;
+    padding: 2rem;
+}
+.productos__jabon p {
+    font-size: 1rem;
+    text-align: justify;
+    background-color: peru;
+    color: white;
+}
+/* ingredientes */
+.ingre__jabon {
+    height: 20%;
+    width: 20%;
+    margin: 3rem;
+    padding: 2rem;
+}
+.ingre__jabon p {
+    font-size: 1rem;
+    text-align: justify;
+    background-color: peru;
+    color: white;
+}
+.footer__1 {
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: orangered;
+    background-color: peru;
+}
+    
+    
+    
+    
+
+
+
+
+
+   
