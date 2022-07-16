@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lisse</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">
+    <title>Lisse</title>
 </head>
 
 <body>
@@ -32,24 +34,47 @@
         <!-- fin de menu de navegación -->
 
     </header>
+    <div class="container-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/molde-jabonera.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/jobones-con-naranjas.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/par-de-jabones.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
 
-    <div class="img__principal">
-        <!-- comienzo de futuro carrusel -->
-        <div class="jab1">
+   <!--  <div class="img__principal">
+        comienzo de futuro carrusel
+         <div class="jab1">
             <img src="./assets/molde-jabonera.png" alt="">
         </div>
-
-        <div class="jab2">
+ -->
+        <!-- <div class="jab2">
             <img src="./assets/jobones-con-naranjas.png" alt="">
         </div>
-
-        <div class="jab3">
+ -->
+       <!--  <div class="jab3">
             <img src="./assets/par-de-jabones.png" alt="">
 
         </div>
-
+ -->
         <!-- fin de carrussel -->
-    </div>
+    <!-- </div> --> -->
 
     <!-- comienzo del footer -->
     
@@ -60,7 +85,8 @@
             </p>
         </footer>
     
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>

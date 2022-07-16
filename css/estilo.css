@@ -109,6 +109,8 @@ h2 {
 
 .botones__contacto {
     text-align: center;
+    background-color: orangered;
+    font-size: 2rem;
 }
 
 /* promociones */
@@ -158,7 +160,7 @@ h2 {
 .jab7 {
     grid-column: 7/13;
     grid-row: 4;
-    align-items: ;
+    
 }
 
 
