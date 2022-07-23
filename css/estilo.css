@@ -9,6 +9,7 @@
 img {
   width: 100%; }
 
+
 body {
   background-color: rgba(209, 135, 135, 0.322);
   font-family: cursive; }
@@ -198,6 +199,7 @@ p:hover {
 .jab7 {
   grid-column: 7/13;
   grid-row: 4; }
+
 
 .productos__jabon p {
   font-size: 1rem;
