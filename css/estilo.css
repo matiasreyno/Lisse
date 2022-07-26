@@ -63,14 +63,26 @@ a:hover {
   background-color: #70360d; }
 
 /* titulo h1 */
-h1 {
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.logo__h1 {
   font-family: "Brush Script MT";
   font-style: oblique;
   font-size: 9rem;
   text-align: center;
   color: fuchsia;
   background-color: darksalmon;
-  margin: 1rem; }
+  margin: 1rem;
+  width: 50%; }
+
+.logo__img {
+  width: 10%;
+  height: 173px;
+  margin: -50px; }
 
 /* titulo h2 */
 .titu {
@@ -256,11 +268,20 @@ footer {
   img {
     width: 100%;
     height: 100%; }
-  h1 {
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .logo__h1 {
     width: 50vw;
-    margin: auto;
+    margin: 50px;
     padding: initial;
     font-size: 15vw; }
+  .logo__img {
+    width: 15vw;
+    height: 18vw;
+    margin: -51px; }
   .titu {
     font-size: 6vw; }
   .menu__flex {
