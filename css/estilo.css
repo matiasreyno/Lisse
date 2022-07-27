@@ -302,19 +302,15 @@ footer {
     font-size: 4vw;
     background-color: #cab4a1;
     font-family: "Brush Script MT"; }
-  /* 
-   
-    .carrusel-index{
-        width: 50%;
-        height: 5%;
-        align-items: center;
-        margin: 25vw;
-        margin-top: 10vw;
-        margin-bottom: 10vw;
-        border: 10px orangered solid;
-    }
-
-    /* productos */
+  .carrusel-index {
+    width: 50%;
+    height: 5%;
+    align-items: center;
+    margin: 25vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    border: 10px orangered solid; }
+  /* productos */
   .jab1 {
     width: 70vw;
     height: 70vw;
