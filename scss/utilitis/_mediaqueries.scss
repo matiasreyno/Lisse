@@ -1,0 +1,231 @@
+/* Tablet */
+@media(max-width: 768px) {
+    body {
+        background-color: $color-fondo;
+    }
+}
+
+/* Movil */
+@media (min-width:320px) and (max-width: 576px) {
+    body {
+        background-color: $color-fondo;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        &__h1 {
+            width: 50vw;
+            height: 18vw;
+            margin-right: 20px;
+            padding: initial;
+            font-size: 15vw;
+        }
+
+        &__img {
+            width: 15vw;
+            height: 18vw;
+            margin-right: 10px;
+        }
+    }
+
+
+    .titu {
+        font-size: 6vw;
+    }
+
+    .menu {
+        &__flex {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 5rem;
+            width: 50vw;
+            margin: auto;
+
+
+
+        }
+
+        &__ul a {
+            text-decoration: none;
+            margin: 0px;
+            padding: 10px;
+            border: 0.5px coral solid;
+            color: fuchsia;
+            font-size: 4vw;
+            background-color: rgb(202, 180, 161);
+            font-family: "Brush Script MT";
+
+        }
+    }
+    .carrusel-index {
+        width: 50%;
+        height: 5%;
+        align-items: center;
+        margin: 25vw;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        border: 10px orangered solid;
+    }
+
+    /* productos */
+    .jab1 {
+        width: 70vw;
+        height: 70vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    .jab2 {
+        width: 70vw;
+        height: 70vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    .jab3 {
+        width: 70vw;
+        height: 70vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    /* ingredientes */
+    .ingre__jabones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        width: 50vw;
+        margin: auto;
+        margin-top: 3vw;
+        padding: 1vw;
+        text-align: center;
+        color: orangered;
+        background-color: peru;
+    }
+
+    /* Productos */
+    .productos__jabon {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .jab4 {
+        width: 70vw;
+        height: 70vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    .jab5 {
+        width: 70vw;
+        height: 70vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    .jab6 {
+        width: 70vw;
+        height: 70vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    .jab7 {
+        width: 70vw;
+        height: 70vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    .productos__jabon img {
+        height: 70%;
+    }
+
+    .productos__jabon p {
+        font-size: 3vw;
+    }
+
+    /* promociones */
+    .promo__jabon {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    @keyframes efectoh2 {
+        0% {
+            color: indianred;
+        }
+
+        25% {
+            color: mediumvioletred;
+        }
+
+        50% {
+            color: maroon;
+            transform: rotate(180deg);
+            font-size: 15vw;
+        }
+
+        75% {
+            color: yellow;
+        }
+
+        100% {
+            color: indianred;
+        }
+
+
+    }
+
+    .promo__jabon p {
+        font-size: 20px;
+    }
+
+    .promo__jabon img {
+        width: 300px;
+    }
+
+    /* contacto */
+    .contacto {
+        &__botones {
+            margin: auto;
+            padding: 1vw;
+            text-align: center;
+            font-size: 7vw;
+            color: white;
+            background-color: orangered;
+            margin-left: 25%;
+        }
+
+        &__botones1 {
+            margin: auto;
+            padding: 1vw;
+            text-align: center;
+            font-size: 7vw;
+            color: white;
+            background-color: orangered;
+        }
+    }
+
+}

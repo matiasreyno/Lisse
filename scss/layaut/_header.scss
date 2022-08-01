@@ -1,0 +1,85 @@
+.menu {
+    &__flex {
+        display: flex;
+        justify-content: space-evenly;
+        height: 5rem;
+        list-style: none;
+        text-align: center;
+
+    }
+
+    &__ul {
+        display: inline-flex;
+        list-style: none;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    &__li a {
+        text-decoration: none;
+        margin: 1rem;
+        padding: 0.5rem;
+        border: 0.5px coral solid;
+        color: fuchsia;
+        font-size: 2rem;
+        background-color: rgb(202, 180, 161);
+        font-family: "Brush Script MT";
+    }
+
+    &__li::after {
+        content: " ";
+        display: block;
+        width: 10px;
+        height: 10px;
+
+    }
+
+    &__li::before {
+        content: " ";
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-bottom: 2px solid solid rgb(112, 54, 13);
+    }
+
+    &__li:hover::before {
+        content: " ";
+        display: block;
+        width: 100%;
+        height: 27px;
+        background-color: rgb(112, 54, 13);
+        border-bottom: 2px solid rgb(112, 54, 13);
+        transition: all 3s;
+    }
+
+}
+
+a:hover {
+    background-color: rgb(112, 54, 13);
+
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &__h1 {
+        font-family: "Brush Script MT";
+        font-style: oblique;
+        font-size: 9rem;
+        text-align: center;
+        color: fuchsia;
+        background-color: darksalmon;
+        margin: 1rem;
+        width: 50%;
+        height: 175px;
+    }
+
+    &__img {
+        width: 10%;
+        height: 175px;
+        margin: -50px;
+    }
+}

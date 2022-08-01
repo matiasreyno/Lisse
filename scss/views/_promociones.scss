@@ -1,0 +1,79 @@
+.animación1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    margin: 3rem;
+    padding: 1rem;
+    text-align: center;
+    color: indianred;
+    text-decoration: underline;
+    animation-name: efectoh2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+@keyframes efectoh2 {
+    0% {
+        color: indianred;
+    }
+
+    25% {
+        color: mediumvioletred;
+    }
+
+    50% {
+        color: maroon;
+        transform: rotate(180deg);
+        font-size: 8rem;
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: indianred;
+    }
+}
+
+.promo {
+    &__jabon {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 2rem;
+        margin: 8rem;
+        align-items: start;
+    }
+
+    &__jabon img {
+        width: 30%;
+    }
+
+    &__jabones1 {
+        grid-column: 1/2;
+    }
+
+    &__jabones2 {
+        grid-column: 1/2;
+        grid-row: 3;
+
+    }
+
+    &__jabones3 {
+        grid-column: 1/2;
+        grid-row: 2;
+
+    }
+
+    &__jabon p {
+        display: inline-flex;
+        font-size: 4rem;
+        text-align: justify;
+        background-color: peru;
+        color: white;
+    }
+}
+
+p:hover {
+    background-color: yellowgreen;
+}
