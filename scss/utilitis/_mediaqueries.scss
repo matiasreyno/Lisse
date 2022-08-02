@@ -1,9 +1,67 @@
 /* Tablet */
-@media(max-width: 768px) {
+@media (min-width: 577px) and (max-width: 991px) {
     body {
         background-color: $color-fondo;
     }
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        &__h1 {
+            width: 50vw;
+            height: 18vw;
+            margin-right: 20px;
+            padding: initial;
+            font-size: 15vw;
+        }
+    
+        &__img {
+            width: 15vw;
+            height: 18vw;
+            margin-right: 10px;
+        }
+    }
+    .menu {
+        &__flex {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 5rem;
+            width: 50vw;
+            margin: auto;
+    
+    
+    
+        }
+    
+        &__ul a {
+            text-decoration: none;
+            margin: 0px;
+            padding: 10px;
+            border: 0.5px coral solid;
+            color: fuchsia;
+            font-size: 4vw;
+            background-color: rgb(202, 180, 161);
+            font-family: "Brush Script MT";
+    
+        }
+    }
+    .carrusel-index {
+        width: 50%;
+        height: 5%;
+        align-items: center;
+        margin: 25vw;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        border: 10px orangered solid;
+    }
 }
+
+
+
+
 
 /* Movil */
 @media (min-width:320px) and (max-width: 576px) {

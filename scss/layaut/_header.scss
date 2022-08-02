@@ -52,13 +52,17 @@
         border-bottom: 2px solid rgb(112, 54, 13);
         transition: all 3s;
     }
+    a:hover {
+        background-color: rgb(112, 54, 13);
+    
+    }
 
 }
 
-a:hover {
+/* a:hover {
     background-color: rgb(112, 54, 13);
 
-}
+} */
 .logo {
     display: flex;
     flex-direction: row;

@@ -1,11 +1,16 @@
 @import "utilitis/variables";
 
-@import "layaut/header";
 @import "layaut/tutulo2";
 @import "layaut/footer";
+@import "layaut/header";
 
-@import "views/index";
+@import "componets/carousel";
+
+
 @import "views/contacto";
+@import "views/promociones";
+@import "views/productos";
+@import "views/ingredientes";
 
 @import "base";
 
