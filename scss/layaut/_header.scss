@@ -59,10 +59,7 @@
 
 }
 
-/* a:hover {
-    background-color: rgb(112, 54, 13);
 
-} */
 .logo {
     display: flex;
     flex-direction: row;
@@ -70,11 +67,11 @@
     align-items: center;
 
     &__h1 {
-        font-family: "Brush Script MT";
+        font-family: $titulo-principal-font-fami;
         font-style: oblique;
         font-size: 9rem;
         text-align: center;
-        color: fuchsia;
+        color: $color-principal;
         background-color: darksalmon;
         margin: 1rem;
         width: 50%;

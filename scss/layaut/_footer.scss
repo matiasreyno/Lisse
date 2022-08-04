@@ -1,7 +1,6 @@
-footer {
-    margin: 2rem;
-    padding: 1rem;
-    text-align: center;
-    color: orangered;
-    background-color: peru;
+@each $name, $url in $redes-contacto {
+    .img-#{$name} {
+        @extend .img-size;
+        background-image: #{$url};
+    }
 }
