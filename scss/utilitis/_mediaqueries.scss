@@ -3,12 +3,13 @@
     body {
         background-color: $color-fondo;
     }
+
     .logo {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-    
+
         &__h1 {
             width: 50vw;
             height: 18vw;
@@ -16,38 +17,14 @@
             padding: initial;
             font-size: 15vw;
         }
-    
+
         &__img {
             width: 15vw;
             height: 18vw;
             margin-right: 10px;
         }
     }
-    .menu {
-        &__flex {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 5rem;
-            width: 50vw;
-            margin: auto;
-    
-    
-    
-        }
-    
-        &__ul a {
-            text-decoration: none;
-            margin: 0px;
-            padding: 10px;
-            border: 0.5px coral solid;
-            color: fuchsia;
-            font-size: 4vw;
-            background-color: rgb(202, 180, 161);
-            font-family: "Brush Script MT";
-    
-        }
-    }
+
     .carrusel-index {
         width: 50%;
         height: 5%;
@@ -74,6 +51,7 @@
         height: 100%;
     }
 
+
     .logo {
         display: flex;
         flex-direction: row;
@@ -96,35 +74,12 @@
     }
 
 
+
     .titu {
         font-size: 6vw;
     }
 
-    .menu {
-        &__flex {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 5rem;
-            width: 50vw;
-            margin: auto;
 
-
-
-        }
-
-        &__ul a {
-            text-decoration: none;
-            margin: 0px;
-            padding: 10px;
-            border: 0.5px coral solid;
-            color: fuchsia;
-            font-size: 4vw;
-            background-color: rgb(202, 180, 161);
-            font-family: "Brush Script MT";
-
-        }
-    }
     .carrusel-index {
         width: 50%;
         height: 5%;
@@ -169,11 +124,11 @@
     footer {
         width: 50vw;
         margin: auto;
-        margin-top: 3vw;
-        padding: 1vw;
         text-align: center;
         color: orangered;
-        background-color: peru;
+        
+        
+        
     }
 
     /* Productos */
@@ -241,8 +196,8 @@
 
         50% {
             color: maroon;
-            transform: rotate(180deg);
-            font-size: 15vw;
+            transform: rotateX(25deg);
+            font-size: 7vw;
         }
 
         75% {
@@ -255,13 +210,16 @@
 
 
     }
+    .promo__jabon{
+        width: 200px;
+    }
 
     .promo__jabon p {
         font-size: 20px;
     }
 
     .promo__jabon img {
-        width: 300px;
+        width: 200px;
     }
 
     /* contacto */

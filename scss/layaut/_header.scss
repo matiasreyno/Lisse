@@ -84,3 +84,35 @@
         margin: -50px;
     }
 }
+.container__fluid1 {
+    .offcanvas-body{
+        background-color:$color-navhome;
+        .nav-item {
+            color: $color-principal;
+        }
+        .nav-link {
+            color: $color-principal;
+        }
+    }
+    .offcanvas-header {
+        background-color:$color-navhome;
+        .offcanvas-title {
+            color: $color-principal;
+        }
+    }
+    
+    
+    .dropdown-menu {
+        background-color: $color-navhome;
+        .dropdown-item {
+            color: $color-principal;
+        }
+    }
+    
+    .btn {
+        color: white ;
+        background-color: $bordes;
+        
+    }
+} 
+

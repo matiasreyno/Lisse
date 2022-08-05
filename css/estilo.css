@@ -97,6 +97,27 @@
     height: 175px;
     margin: -50px; }
 
+.container__fluid1 .offcanvas-body {
+  background-color: #cab4a1; }
+  .container__fluid1 .offcanvas-body .nav-item {
+    color: fuchsia; }
+  .container__fluid1 .offcanvas-body .nav-link {
+    color: fuchsia; }
+
+.container__fluid1 .offcanvas-header {
+  background-color: #cab4a1; }
+  .container__fluid1 .offcanvas-header .offcanvas-title {
+    color: fuchsia; }
+
+.container__fluid1 .dropdown-menu {
+  background-color: #cab4a1; }
+  .container__fluid1 .dropdown-menu .dropdown-item {
+    color: fuchsia; }
+
+.container__fluid1 .btn {
+  color: white;
+  background-color: orangered; }
+
 .carrusel-index {
   width: 50%;
   height: 700px;
@@ -279,22 +300,6 @@ body {
       width: 15vw;
       height: 18vw;
       margin-right: 10px; }
-  .menu__flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 5rem;
-    width: 50vw;
-    margin: auto; }
-  .menu__ul a {
-    text-decoration: none;
-    margin: 0px;
-    padding: 10px;
-    border: 0.5px coral solid;
-    color: fuchsia;
-    font-size: 4vw;
-    background-color: #cab4a1;
-    font-family: "Brush Script MT"; }
   .carrusel-index {
     width: 50%;
     height: 5%;
@@ -328,22 +333,6 @@ body {
       margin-right: 10px; }
   .titu {
     font-size: 6vw; }
-  .menu__flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 5rem;
-    width: 50vw;
-    margin: auto; }
-  .menu__ul a {
-    text-decoration: none;
-    margin: 0px;
-    padding: 10px;
-    border: 0.5px coral solid;
-    color: fuchsia;
-    font-size: 4vw;
-    background-color: #cab4a1;
-    font-family: "Brush Script MT"; }
   .carrusel-index {
     width: 50%;
     height: 5%;
@@ -378,11 +367,8 @@ body {
   footer {
     width: 50vw;
     margin: auto;
-    margin-top: 3vw;
-    padding: 1vw;
     text-align: center;
-    color: orangered;
-    background-color: peru; }
+    color: orangered; }
   /* Productos */
   .productos__jabon {
     display: flex;
@@ -427,16 +413,18 @@ body {
       color: mediumvioletred; }
     50% {
       color: maroon;
-      transform: rotate(180deg);
-      font-size: 15vw; }
+      transform: rotateX(25deg);
+      font-size: 7vw; }
     75% {
       color: yellow; }
     100% {
       color: indianred; } }
+  .promo__jabon {
+    width: 200px; }
   .promo__jabon p {
     font-size: 20px; }
   .promo__jabon img {
-    width: 300px; }
+    width: 200px; }
   /* contacto */
   .contacto__botones {
     margin: auto;

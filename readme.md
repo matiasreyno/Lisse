@@ -1,2 +1,2 @@
 <h1>lisse</h1>
-<p>es un proyecto de una pagina de venta de jabones naturales</p>
+<p>El proyecto es sobre una pagina de jabones naturales, para limpieza corporal como para limpieza del cabello.</p>
