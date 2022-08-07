@@ -1,7 +1,7 @@
 .animación1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3rem;
-    margin: 3rem;
+    font-size: 2rem;
+    margin: 2rem;
     padding: 1rem;
     text-align: center;
     color: indianred;
@@ -22,8 +22,8 @@
 
     50% {
         color: maroon;
-        transform: rotate(45deg);
-        font-size: 6rem;
+        transform: rotateX(25deg);
+        font-size: 4rem;
     }
 
     75% {
@@ -67,7 +67,7 @@
 
     &__jabon p {
         display: inline-flex;
-        font-size: 4rem;
+        font-size: 2rem;
         text-align: justify;
         background-color: peru;
         color: white;

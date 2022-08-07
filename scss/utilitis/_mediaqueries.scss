@@ -119,12 +119,18 @@
     .ingre__jabones {
         display: flex;
         flex-direction: column;
+        margin: 10px;
+        p {
+            width: 83%;
+            height: 10%;
+            font-size: 7vw;
+        }
     }
 
     footer {
         width: 50vw;
         margin: auto;
-        text-align: center;
+        margin-top: 20px;
         color: orangered;
         
         
@@ -135,54 +141,63 @@
     .productos__jabon {
         display: flex;
         flex-direction: column;
-
-    }
-
-    .jab4 {
-        width: 70vw;
-        height: 70vw;
-        margin: auto;
-        padding: 3vw;
-        align-items: center;
-    }
-
-    .jab5 {
-        width: 70vw;
-        height: 70vw;
-        margin: auto;
-        padding: 3vw;
-        align-items: center;
-    }
-
-    .jab6 {
-        width: 70vw;
-        height: 70vw;
-        margin: auto;
-        padding: 3vw;
-        align-items: center;
-    }
-
-    .jab7 {
-        width: 70vw;
-        height: 70vw;
-        margin: auto;
-        padding: 3vw;
-        align-items: center;
-    }
-
-    .productos__jabon img {
-        height: 70%;
-    }
-
-    .productos__jabon p {
-        font-size: 3vw;
+        gap: 10px;
+        &__jab4 {
+            width: 70vw;
+            height: 70vw;
+            margin: 10px;
+            padding: 3vw;
+            align-items: center;
+        }
+        &__jab5 {
+            width: 70vw;
+            height: 70vw;
+            margin: auto;
+            padding: 3vw;
+            align-items: center;
+        }
+        &__jab6 {
+            width: 70vw;
+            height: 70vw;
+            margin: auto;
+            padding: 3vw;
+            align-items: center;
+        }
+        &__jab7 {
+            width: 70vw;
+            height: 70vw;
+            margin: auto;
+            padding: 3vw;
+            align-items: center;
+        }
+        img {
+            height: 70%;
+        }
+        p {
+            font-size: 3vw;
+        }
     }
 
     /* promociones */
     .promo__jabon {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        margin: 20%;
+        p {
+            font-size: 10px;
+        }
+        img {
+            width: 200px;
+        }
+
+        
+
+    }
+    .animación1 {
+        font-size: 2vw;
+        margin: 2vw;
+        padding: 1vw;
+       
     }
 
     @keyframes efectoh2 {
@@ -210,18 +225,7 @@
 
 
     }
-    .promo__jabon{
-        width: 200px;
-    }
-
-    .promo__jabon p {
-        font-size: 20px;
-    }
-
-    .promo__jabon img {
-        width: 200px;
-    }
-
+    
     /* contacto */
     .contacto {
         &__botones {
