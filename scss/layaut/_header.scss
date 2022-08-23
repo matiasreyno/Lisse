@@ -12,29 +12,32 @@ header {
         font-style: oblique;
         font-size: 9rem;
         text-align: center;
-        color: $color-principal;
-        background-color: $backgran;
-        margin: 1rem;
-        width: 50%;
-        height: 175px;
-    }
+       /*  color: $color-principal; */
+       margin: 1rem;
+       width: 50%;
+       height: 175px;
+   }
+        
 
     &__img {
         width: 10%;
         height: 175px;
         margin: -50px;
-       /*  background-color: rgb(131, 172, 250);
-        border: 10px rgb(135, 186, 226) solid;; */
         margin-right: 3px;
     }
     a {
-        color: #6585c2;
+        color:$color-principal;
+        background-color: $backgran;
     }
 }
 .container__fluid1 {
     margin: 1px;
     .navbar{
         margin: 5px;
+        &-toggler {
+            color: $color-principal;
+        }
+        
     }
     .offcanvas-body{
         background-color:$color-navhome;

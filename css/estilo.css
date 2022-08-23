@@ -10,7 +10,8 @@
 .redes {
   display: flex;
   justify-content: space-evenly;
-  text-align: center; }
+  text-align: center;
+  margin-top: auto; }
 
 .titu {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -43,8 +44,7 @@ header {
     font-style: oblique;
     font-size: 9rem;
     text-align: center;
-    color: #497ddf;
-    background-color: rgba(92, 103, 124, 0.5);
+    /*  color: $color-principal; */
     margin: 1rem;
     width: 50%;
     height: 175px; }
@@ -52,16 +52,17 @@ header {
     width: 10%;
     height: 175px;
     margin: -50px;
-    /*  background-color: rgb(131, 172, 250);
-        border: 10px rgb(135, 186, 226) solid;; */
     margin-right: 3px; }
   .logo a {
-    color: #6585c2; }
+    color: #497ddf;
+    background-color: rgba(92, 103, 124, 0.5); }
 
 .container__fluid1 {
   margin: 1px; }
   .container__fluid1 .navbar {
     margin: 5px; }
+    .container__fluid1 .navbar-toggler {
+      color: #497ddf; }
   .container__fluid1 .offcanvas-body {
     background-color: #5c677a; }
     .container__fluid1 .offcanvas-body .nav-item {
@@ -97,7 +98,8 @@ header {
   text-align: center;
   font-size: 2rem;
   color: #5c677a;
-  background-color: rgba(92, 103, 124, 0.5); }
+  background-color: rgba(92, 103, 124, 0.5);
+  width: 95%; }
 
 .contacto__botones {
   margin: 2rem;
@@ -119,7 +121,7 @@ header {
 
 .animación1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 0.5rem;
   margin: 2rem;
   padding: 1rem;
   text-align: center;
@@ -136,8 +138,8 @@ header {
     color: #5c5ec2; }
   50% {
     color: #7e9441;
-    transform: rotateX(25deg);
-    font-size: 3rem; }
+    /*  transform: rotateX(25deg); */
+    font-size: 2rem; }
   75% {
     color: #b8b884; }
   100% {
@@ -272,10 +274,13 @@ body {
   /*  background-color: rgb(179, 250, 226); */
   font-family: cursive;
   background-image: url(../assets/fondo2.jpg);
-  margin: 5px; }
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
 /* Tablet */
-@media (min-width: 577px) and (max-width: 991px) {
+@media (min-width: 801px) and (max-width: 991px) {
   .logo {
     display: flex;
     flex-direction: row;
@@ -389,13 +394,14 @@ body {
         margin: auto;
     } */
   .contacto {
-    margin: 25%; }
+    margin: 2%; }
     .contacto__net {
-      margin: 35px;
-      font-size: 6vw; }
-    .contacto__imput {
       margin: 30px;
       font-size: 4vw; }
+    .contacto__imput {
+      margin: 15px;
+      font-size: 3vw;
+      text-align: center; }
     .contacto .container-fluid {
       margin: auto;
       padding: 10px; }
@@ -415,7 +421,7 @@ body {
       color: white;
       background-color: rgba(92, 103, 124, 0.5); } }
 
-@media (min-width: 701px) and (max-width: 800px) {
+@media (min-width: 577px) and (max-width: 800px) {
   /* index */
   .logo {
     display: flex;
@@ -423,16 +429,16 @@ body {
     justify-content: center;
     align-items: center; }
     .logo__h1 {
-      width: 10rem;
-      height: 3rem;
-      margin-right: 20px;
+      width: 20rem;
+      height: 8rem;
+      margin-right: 10px;
       padding: initial;
-      font-size: 8rem;
+      font-size: 6rem;
       background-color: rgba(92, 103, 124, 0.5); }
     .logo__img {
       width: 10rem;
-      height: 3rem;
-      margin-right: 10px; }
+      height: 8rem;
+      margin-right: 30px; }
   .titu {
     font-size: 6vw; }
   .carrusel-index {
@@ -461,7 +467,17 @@ body {
     margin: 2vw;
     margin-left: 10vw;
     width: 35rem;
-    height: 20rem; } }
+    height: 20rem; }
+  /* contacto */
+  .contacto {
+    margin: 5%; }
+    .contacto__net {
+      font-size: 7vw; }
+    .contacto__imput {
+      text-align: center;
+      font-size: 4vw;
+      margin: 1vw;
+      padding: 2vw; } }
 
 /* Movil */
 @media (min-width: 320px) and (max-width: 576px) {
@@ -535,7 +551,7 @@ body {
     margin-top: 20px; }
     footer .img-size, footer .img-watsapp, footer .img-twitter, footer .img-instagram {
       width: 50vw;
-      height: 15vw; }
+      height: 16vw; }
   /* Productos */
   .productos__jabon {
     display: flex;
@@ -598,14 +614,12 @@ body {
   /* contacto */
   header {
     margin: 5px; }
-  /*  main {
-        margin: auto;
-    } */
   .contacto {
-    margin: 10%; }
+    margin: 5%; }
     .contacto__net {
-      margin: 15px;
-      padding: 2px;
+      margin: 30px;
+      margin-left: 7px;
+      padding: 10px;
       font-size: 7vw; }
     .contacto__imput {
       margin: 15px;
