@@ -1,7 +1,8 @@
 $color-fondo: rgba(209, 135, 135, 0.322);
 
-$color-principal:  fuchsia;
+$color-principal:   rgb(73, 125, 223);
 
 $titulo-principal-font-fami: Brush Script MT;
-$color-navhome: rgb(202, 180, 161);
-$bordes: orangered;
+$color-navhome: /* rgb(202, 180, 161) */  rgb(92, 103, 122);
+$bordes:2px rgb(92, 103, 122) solid;
+$backgran:transparentize($color: #5c677c, $amount: 0.5);

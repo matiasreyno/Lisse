@@ -9,15 +9,19 @@
     }
 
     &__jabones img {
-        width: 250px;
+        width: 350px;
         height: 300px;
+        border: $bordes;
     }
 
     &__jabones p {
-        font-size: 2rem;
+        font-size: 1,5rem;
         text-align: justify;
-        background-color: peru;
+        background-color: $backgran;
         color: white;
+        margin: 10px;
+        width: 350px;
+        height: 300px;
 
     }
 
@@ -36,3 +40,12 @@
         grid-column: 5/7;
     }
 }
+p:hover {
+    background-color: $color-navhome;
+}
+.video {
+    margin: 3rem;
+    margin-left: 15rem;
+    border: $bordes;
+}
+    

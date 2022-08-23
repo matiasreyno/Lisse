@@ -1,10 +1,10 @@
 .animación1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 2rem;
     padding: 1rem;
     text-align: center;
-    color: indianred;
+    color:$color-navhome;
     text-decoration: underline;
     animation-name: efectoh2;
     animation-iteration-count: infinite;
@@ -13,25 +13,25 @@
 }
 @keyframes efectoh2 {
     0% {
-        color: indianred;
+        color: $color-navhome;
     }
 
     25% {
-        color: mediumvioletred;
+        color: rgb(92, 94, 194);
     }
 
     50% {
-        color: maroon;
+        color: rgb(126, 148, 65);
         transform: rotateX(25deg);
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     75% {
-        color: yellow;
+        color: rgb(184, 184, 132);
     }
 
     100% {
-        color: indianred;
+        color:  $color-navhome;
     }
 }
 
@@ -46,7 +46,9 @@
     }
 
     &__jabon img {
-        width: 30%;
+        width: 20%;
+        height: 20%;
+        border: $bordes;
     }
 
     &__jabones1 {
@@ -67,13 +69,14 @@
 
     &__jabon p {
         display: inline-flex;
-        font-size: 2rem;
+        font-size: 1,5rem;
         text-align: justify;
-        background-color: peru;
+        background-color: $backgran;
         color: white;
+        margin: 10px;
     }
 }
 
 p:hover {
-    background-color: yellowgreen;
+    background-color: $color-navhome;
 }

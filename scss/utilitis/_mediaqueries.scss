@@ -1,8 +1,6 @@
 /* Tablet */
 @media (min-width: 577px) and (max-width: 991px) {
-    body {
-        background-color: $color-fondo;
-    }
+
 
     .logo {
         display: flex;
@@ -32,9 +30,266 @@
         margin: 25vw;
         margin-top: 10vw;
         margin-bottom: 10vw;
-        border: 10px orangered solid;
+        border: $bordes;
+        
+    }
+    /* ingredientes */
+.ingre__jabones {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+
+    img {
+        width: 90%;
+        height: 90%;
+    }
+
+    p {
+        width: 83%;
+        height: 10%;
+        font-size: 3vw;
+        background-color: $backgran;
+        margin-top: 10px;
     }
 }
+
+.video {
+    margin: 2vw;
+    margin-left: 5vw;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    width: 50vw;
+    margin: auto;
+    margin-top: 20px;
+    color: orangered;
+
+
+
+}
+
+/* Productos */
+.productos__jabon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    &__jab4 {
+        width: 70vw;
+        height: 70vw;
+        margin: 10px;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    &__jab5 {
+        width: 70vw;
+        height: 70vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    &__jab6 {
+        width: 70vw;
+        height: 70vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    &__jab7 {
+        width: 30vw;
+        height: 30vw;
+        margin: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    img {
+        height: 50%;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+}
+
+/* promociones */
+.promo__jabon {
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+
+    p {
+        font-size: 10px;
+    }
+
+    img {
+        width: 200px;
+    }
+
+
+
+}
+
+.animación1 {
+    font-size: 2vw;
+    margin: 2vw;
+    padding: 1vw;
+
+}
+
+@keyframes efectoh2 {
+    0% {
+        color: indianred;
+    }
+
+    25% {
+        color: mediumvioletred;
+    }
+
+    50% {
+        color: maroon;
+        transform: rotateX(25deg);
+        font-size: 7vw;
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: indianred;
+    }
+
+
+}
+
+/* contacto */
+header {
+    margin: 5px;
+
+}
+
+/*  main {
+        margin: auto;
+    } */
+.contacto {
+    margin: 25%;
+
+    &__net {
+        margin: 35px;
+        font-size: 6vw;
+    }
+
+    &__imput {
+        margin: 30px;
+        font-size: 4vw
+    }
+
+    .container-fluid {
+        margin: auto;
+        padding: 10px;
+    }
+
+    &__botones {
+        margin: auto;
+        padding: 1vw;
+        text-align: center;
+        font-size: 5vw;
+        color: white;
+        background-color: $backgran;
+        margin-left: 25%;
+    }
+
+    &__botones1 {
+        margin: auto;
+        padding: 1vw;
+        text-align: center;
+        font-size: 5vw;
+        color: white;
+        background-color: $backgran;
+    }
+
+}
+
+}
+@media (min-width: 701px) and (max-width: 800px) {
+    /* index */
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        &__h1 {
+            width: 10rem;
+            height: 3rem;
+            margin-right: 20px;
+            padding: initial;
+            font-size: 8rem;
+            background-color: $backgran;
+        }
+
+        &__img {
+            width: 10rem;
+            height: 3rem;
+            margin-right: 10px;
+        }
+    }
+
+
+
+    .titu {
+        font-size: 6vw;
+    }
+
+
+    .carrusel-index {
+        width: 50%;
+        height: 5%;
+        align-items: center;
+        margin: 25vw;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        border: $bordes;
+
+    }
+    /* ingredientes */
+    .ingre__jabones {
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+    
+        img {
+            width: 35rem;
+            height: 20rem;
+        }
+    
+        p {
+            width: 83%;
+            height: 10%;
+            font-size: 3vw;
+            background-color: $backgran;
+            margin-top: 10px;
+        }
+    }
+    .video{
+        margin: 2vw;
+        margin-left: 10vw;
+        width: 35rem;
+        height: 20rem;
+    }
+
+   
+}
+
+
+
+
 
 
 
@@ -42,14 +297,9 @@
 
 /* Movil */
 @media (min-width:320px) and (max-width: 576px) {
-    body {
-        background-color: $color-fondo;
-    }
 
-    img {
-        width: 100%;
-        height: 100%;
-    }
+
+   
 
 
     .logo {
@@ -76,7 +326,7 @@
 
 
     .titu {
-        font-size: 6vw;
+        font-size: 9vw;
     }
 
 
@@ -87,7 +337,8 @@
         margin: 25vw;
         margin-top: 10vw;
         margin-bottom: 10vw;
-        border: 10px orangered solid;
+        border: $bordes;
+
     }
 
     /* productos */
@@ -119,29 +370,49 @@
     .ingre__jabones {
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 30px;
+
+        img {
+            width: 90%;
+            height: 90%;
+        }
+
         p {
             width: 83%;
             height: 10%;
-            font-size: 7vw;
+            font-size: 3vw;
+            background-color: $backgran;
+            margin-top: 10px;
         }
+    }
+
+    .video {
+        margin: 2vw;
+        margin-left: 5vw;
+        width: 90%;
+        height: 90%;
     }
 
     footer {
         width: 50vw;
+        height: 50vw;
         margin: auto;
         margin-top: 20px;
-        color: orangered;
-        
-        
-        
+        .img-size {
+            width: 50vw;
+            height: 15vw;
+        }
+
+
+
     }
 
     /* Productos */
     .productos__jabon {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
+
         &__jab4 {
             width: 70vw;
             height: 70vw;
@@ -149,6 +420,7 @@
             padding: 3vw;
             align-items: center;
         }
+
         &__jab5 {
             width: 70vw;
             height: 70vw;
@@ -156,6 +428,7 @@
             padding: 3vw;
             align-items: center;
         }
+
         &__jab6 {
             width: 70vw;
             height: 70vw;
@@ -163,16 +436,19 @@
             padding: 3vw;
             align-items: center;
         }
+
         &__jab7 {
-            width: 70vw;
-            height: 70vw;
+            width: 30vw;
+            height: 30vw;
             margin: auto;
             padding: 3vw;
             align-items: center;
         }
+
         img {
-            height: 70%;
+            height: 50%;
         }
+
         p {
             font-size: 3vw;
         }
@@ -183,21 +459,24 @@
         display: flex;
         flex-direction: column;
         margin: 20%;
+
         p {
             font-size: 10px;
         }
+
         img {
             width: 200px;
         }
 
-        
+
 
     }
+
     .animación1 {
         font-size: 2vw;
         margin: 2vw;
         padding: 1vw;
-       
+
     }
 
     @keyframes efectoh2 {
@@ -225,16 +504,43 @@
 
 
     }
-    
+
     /* contacto */
+    header {
+        margin: 5px;
+
+    }
+
+    /*  main {
+        margin: auto;
+    } */
     .contacto {
+        margin: 10%;
+
+        &__net {
+            margin: 15px;
+            padding: 2px;
+            font-size: 7vw;
+        }
+
+        &__imput {
+            margin: 15px;
+            font-size: 3vw;
+            text-align: center;
+        }
+
+        .container-fluid {
+            margin: auto;
+            padding: 10px;
+        }
+
         &__botones {
             margin: auto;
             padding: 1vw;
             text-align: center;
-            font-size: 7vw;
+            font-size: 5vw;
             color: white;
-            background-color: orangered;
+            background-color: $backgran;
             margin-left: 25%;
         }
 
@@ -242,10 +548,11 @@
             margin: auto;
             padding: 1vw;
             text-align: center;
-            font-size: 7vw;
+            font-size: 5vw;
             color: white;
-            background-color: orangered;
+            background-color: $backgran;
         }
+
     }
 
 }

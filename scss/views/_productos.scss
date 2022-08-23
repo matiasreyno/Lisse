@@ -1,3 +1,6 @@
+main{
+    margin: 0,5rem;
+}
 .productos {
     &__jabon {
         display: grid;
@@ -9,25 +12,25 @@
 
     &__jab4 {
         grid-column: 4/7;
-        border: $bordes 5px solid;
+        border: $bordes ;
     }
 
     &__jab5 {
         grid-column: 7/10;
         grid-row: 2;
-        border: $bordes 5px solid;
+        border: $bordes ;
     }
 
     &__jab6 {
         grid-column: 4/7;
         grid-row: 3;
-        border: $bordes 5px solid;
+        border: $bordes ;
     }
 
     &__jab7 {
         grid-column: 7/10;
         grid-row: 4;
-        border: $bordes 5px solid;
+        border: $bordes ;
         
 
     }
@@ -36,7 +39,11 @@
     &__jabon p {
         font-size: 1rem;
         text-align: justify;
-        background-color: peru;
+        background-color:$backgran;
         color: white;
+        margin: 9px;
     }
+}
+p:hover {
+    background-color: $color-navhome;
 }
