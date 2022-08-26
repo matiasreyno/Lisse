@@ -9,9 +9,11 @@
 
 .redes {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin-top: auto; }
+  margin-top: 3rem;
+  position: static; }
 
 .titu {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,6 +32,18 @@
 
 .img-instagram {
   background-image: url("../../assets/logo-instg.jpg"); }
+
+p {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(92, 103, 124, 0.5); }
+  p p:hover {
+    background-color: #5c677a; }
+    p p:hover a {
+      color: #497ddf; }
 
 header {
   margin: 5px; }
@@ -119,6 +133,12 @@ header {
   background-color: rgba(92, 103, 124, 0.5);
   margin-right: 5px; }
 
+.mapa {
+  width: 70%;
+  margin: 3rem;
+  text-align: center;
+  border: 2px #5c677a solid; }
+
 .animación1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.5rem;
@@ -154,8 +174,8 @@ header {
   align-items: start; }
 
 .promo__jabon img {
-  width: 20%;
-  height: 20%;
+  width: 40%;
+  height: 40%;
   border: 2px #5c677a solid; }
 
 .promo__jabones1 {
@@ -253,14 +273,55 @@ p:hover {
 .ingre__jabon3 {
   grid-column: 5/7; }
 
+.info__sahmp {
+  text-align: center; }
+
+.info img {
+  margin: 20%;
+  margin-top: 5%;
+  width: 50%;
+  height: 50%; }
+
+.info h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: #5c677a;
+  text-decoration: underline; }
+
 p:hover {
   background-color: #5c677a; }
 
 .video {
+  width: 50rem;
+  height: 30rem;
   margin: 3rem;
-  margin-left: 15rem;
+  margin-top: 1rem;
+  margin-left: 10rem;
   border: 2px #5c677a solid; }
 
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: #5c677a;
+  text-decoration: underline; }
+
+/* section {
+    pre {
+        width: 50%;
+        font-family: cursive;
+        font-size: 1,5rem;
+        text-align: center;
+        background-color: $backgran;
+        color: $texto-color;
+        margin: 10px;
+    }
+} */
 * {
   margin: 0;
   padding: 0;
@@ -271,7 +332,6 @@ img {
   opacity: 1; }
 
 body {
-  /*  background-color: rgb(179, 250, 226); */
   font-family: cursive;
   background-image: url(../assets/fondo2.jpg);
   margin: 5px;
@@ -367,9 +427,9 @@ body {
     flex-direction: column;
     margin: 20%; }
     .promo__jabon p {
-      font-size: 10px; }
+      font-size: 15px; }
     .promo__jabon img {
-      width: 200px; }
+      width: 250px; }
   .animación1 {
     font-size: 2vw;
     margin: 2vw;
@@ -390,9 +450,6 @@ body {
   /* contacto */
   header {
     margin: 5px; }
-  /*  main {
-        margin: auto;
-    } */
   .contacto {
     margin: 2%; }
     .contacto__net {
@@ -419,7 +476,12 @@ body {
       text-align: center;
       font-size: 5vw;
       color: white;
-      background-color: rgba(92, 103, 124, 0.5); } }
+      background-color: rgba(92, 103, 124, 0.5); }
+  .mapa {
+    margin: 2vw;
+    margin-left: 5vw;
+    width: 80%;
+    height: 90%; } }
 
 @media (min-width: 577px) and (max-width: 800px) {
   /* index */
@@ -452,7 +514,7 @@ body {
   /* ingredientes */
   .ingre__jabones {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 30px; }
     .ingre__jabones img {
       width: 35rem;
@@ -464,10 +526,15 @@ body {
       background-color: rgba(92, 103, 124, 0.5);
       margin-top: 10px; }
   .video {
-    margin: 2vw;
-    margin-left: 10vw;
+    margin: auto;
+    margin-left: 2.5%;
     width: 35rem;
     height: 20rem; }
+  /* promociones */
+  .promo__jabon img {
+    width: 200px; }
+  .promo__jabon p {
+    font-size: 10px; }
   /* contacto */
   .contacto {
     margin: 5%; }
@@ -477,7 +544,15 @@ body {
       text-align: center;
       font-size: 4vw;
       margin: 1vw;
-      padding: 2vw; } }
+      padding: 2vw; }
+    .contacto__botones1 {
+      margin: 0rem;
+      margin-right: 0px; }
+  .mapa {
+    margin: 2vw;
+    margin-left: 10vw;
+    width: 35rem;
+    height: 20rem; } }
 
 /* Movil */
 @media (min-width: 320px) and (max-width: 576px) {
@@ -539,6 +614,20 @@ body {
       font-size: 3vw;
       background-color: rgba(92, 103, 124, 0.5);
       margin-top: 10px; }
+  .info {
+    display: flex;
+    flex-direction: column; }
+    .info h3 {
+      font-size: 7vw; }
+    .info img {
+      width: 90%;
+      height: 90%;
+      margin: auto;
+      margin-left: 5%; }
+    .info p {
+      font-size: 3vw; }
+    .info h4 {
+      font-size: 5vw; }
   .video {
     margin: 2vw;
     margin-left: 5vw;
@@ -550,8 +639,14 @@ body {
     margin: auto;
     margin-top: 20px; }
     footer .img-size, footer .img-watsapp, footer .img-twitter, footer .img-instagram {
-      width: 50vw;
-      height: 16vw; }
+      width: 22vw;
+      height: 40vw;
+      gap: 10vw; }
+    footer p {
+      font-size: 2.5vw; }
+    footer img {
+      width: 20vw;
+      height: 20vw; }
   /* Productos */
   .productos__jabon {
     display: flex;
@@ -642,4 +737,9 @@ body {
       text-align: center;
       font-size: 5vw;
       color: white;
-      background-color: rgba(92, 103, 124, 0.5); } }
+      background-color: rgba(92, 103, 124, 0.5); }
+  .mapa {
+    margin: 2vw;
+    margin-left: 5vw;
+    width: 90%;
+    height: 90%; } }

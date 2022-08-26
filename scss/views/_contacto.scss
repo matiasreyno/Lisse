@@ -16,7 +16,7 @@
         font-size: 2rem;
         color: white;
         background-color: $backgran;
-    
+
         margin-left: 40%;
     }
 
@@ -26,7 +26,18 @@
         text-align: center;
         font-size: 2rem;
         color: white;
-        background-color:  $backgran;
+        background-color: $backgran;
         margin-right: 5px;
     }
+
+}
+
+.mapa {
+    width: 70%;
+    
+    margin: 3rem;
+    
+    text-align: center;
+    
+    border: $bordes;
 }

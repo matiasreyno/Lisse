@@ -39,13 +39,38 @@
     &__jabon3 {
         grid-column: 5/7;
     }
+    
+}
+.info {
+    &__sahmp {
+       
+        text-align: center;
+    }
+    img {
+        margin: 20%;
+        margin-top: 5%;
+        width: 50%;
+        height: 50%;
+    }
+    h4 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        margin: 2rem;
+        padding: 1rem;
+        text-align: center;
+        color: $color-navhome;
+        text-decoration: underline;
+    }
 }
 p:hover {
     background-color: $color-navhome;
 }
 .video {
+    width: 50rem;
+    height: 30rem;
     margin: 3rem;
-    margin-left: 15rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
     border: $bordes;
 }
     

@@ -4,3 +4,17 @@
         background-image: #{$url};
     }
 }
+p {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: $texto-color ;
+    background-color: $backgran;
+    p:hover {
+        background-color: $color-navhome;
+        a{
+            color: $color-principal;
+        }
+    }
+}
