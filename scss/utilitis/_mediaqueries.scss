@@ -273,7 +273,7 @@ header {
         margin: 30px;
     
         img {
-            width: 35rem;
+            width: 32rem;
             height: 20rem;
         }
     
@@ -322,6 +322,24 @@ header {
         margin-left: 10vw;
         width: 35rem;
         height: 20rem;
+    }
+    /* productos */
+    .productos__jabon{
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 32rem;
+            height: 20rem;
+            border: $bordes;
+        }
+        p {
+            width: 32rem;
+            height: 20rem;
+            font-size: 3vw;
+            background-color: $backgran;
+            margin-top: 10px;
+            border: $bordes;
+        }
     }
 
    

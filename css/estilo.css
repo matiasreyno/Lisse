@@ -510,7 +510,7 @@ body {
     flex-direction: column;
     margin: 30px; }
     .ingre__jabones img {
-      width: 35rem;
+      width: 32rem;
       height: 20rem; }
     .ingre__jabones p {
       width: 83%;
@@ -545,7 +545,22 @@ body {
     margin: 2vw;
     margin-left: 10vw;
     width: 35rem;
-    height: 20rem; } }
+    height: 20rem; }
+  /* productos */
+  .productos__jabon {
+    display: flex;
+    flex-direction: column; }
+    .productos__jabon img {
+      width: 32rem;
+      height: 20rem;
+      border: 2px #5c677a solid; }
+    .productos__jabon p {
+      width: 32rem;
+      height: 20rem;
+      font-size: 3vw;
+      background-color: rgba(92, 103, 124, 0.5);
+      margin-top: 10px;
+      border: 2px #5c677a solid; } }
 
 /* Movil */
 @media (min-width: 320px) and (max-width: 576px) {
