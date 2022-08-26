@@ -311,17 +311,6 @@ h3 {
   color: #5c677a;
   text-decoration: underline; }
 
-/* section {
-    pre {
-        width: 50%;
-        font-family: cursive;
-        font-size: 1,5rem;
-        text-align: center;
-        background-color: $backgran;
-        color: $texto-color;
-        margin: 10px;
-    }
-} */
 * {
   margin: 0;
   padding: 0;
@@ -484,7 +473,7 @@ body {
     height: 90%; } }
 
 @media (min-width: 577px) and (max-width: 800px) {
-  /* index */
+  /* h1 */
   .logo {
     display: flex;
     flex-direction: row;
@@ -501,8 +490,10 @@ body {
       width: 10rem;
       height: 8rem;
       margin-right: 30px; }
+  /* h2 */
   .titu {
     font-size: 6vw; }
+  /* index */
   .carrusel-index {
     width: 50%;
     height: 5%;
@@ -511,6 +502,8 @@ body {
     margin-top: 10vw;
     margin-bottom: 10vw;
     border: 2px #5c677a solid; }
+  .texto__index {
+    font-size: 3vw; }
   /* ingredientes */
   .ingre__jabones {
     display: flex;
@@ -573,6 +566,7 @@ body {
       margin-right: 10px; }
   .titu {
     font-size: 9vw; }
+  /* index */
   .carrusel-index {
     width: 50%;
     height: 5%;
@@ -581,6 +575,10 @@ body {
     margin-top: 10vw;
     margin-bottom: 10vw;
     border: 2px #5c677a solid; }
+  .texto__index h3 {
+    font-size: 6vw; }
+  .texto__index p {
+    font-size: 4vw; }
   /* productos */
   .jab1 {
     width: 70vw;

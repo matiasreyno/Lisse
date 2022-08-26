@@ -223,7 +223,7 @@ header {
 
 }
 @media (min-width: 577px) and (max-width: 800px) {
-    /* index */
+   /* h1 */
     .logo {
         display: flex;
         flex-direction: row;
@@ -247,12 +247,12 @@ header {
     }
 
 
-
+/* h2 */
     .titu {
         font-size: 6vw;
     }
 
-
+ /* index */
     .carrusel-index {
         width: 50%;
         height: 5%;
@@ -262,6 +262,9 @@ header {
         margin-bottom: 10vw;
         border: $bordes;
 
+    }
+    .texto__index {
+        font-size: 3vw;
     }
     /* ingredientes */
     .ingre__jabones {
@@ -366,7 +369,7 @@ header {
         font-size: 9vw;
     }
 
-
+ /* index */
     .carrusel-index {
         width: 50%;
         height: 5%;
@@ -376,6 +379,14 @@ header {
         margin-bottom: 10vw;
         border: $bordes;
 
+    }
+    .texto__index {
+        h3 {
+            font-size: 6vw;
+        }
+        p {
+            font-size: 4vw;
+        }
     }
 
     /* productos */
