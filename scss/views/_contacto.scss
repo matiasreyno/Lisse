@@ -14,7 +14,7 @@
         padding: 1rem;
         text-align: center;
         font-size: 2rem;
-        color: white;
+        color: $texto-color;
         background-color: $backgran;
 
         margin-left: 40%;
@@ -25,7 +25,7 @@
         padding: 1rem;
         text-align: center;
         font-size: 2rem;
-        color: white;
+        color: $texto-color;
         background-color: $backgran;
         margin-right: 5px;
     }
@@ -34,10 +34,7 @@
 
 .mapa {
     width: 70%;
-    
-    margin: 3rem;
-    
+    margin: auto;
     text-align: center;
-    
     border: $bordes;
 }

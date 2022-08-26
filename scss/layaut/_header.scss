@@ -1,6 +1,7 @@
 header {
     margin: 5px;
 }
+
 .logo {
     display: flex;
     flex-direction: row;
@@ -12,12 +13,12 @@ header {
         font-style: oblique;
         font-size: 9rem;
         text-align: center;
-       /*  color: $color-principal; */
-       margin: 1rem;
-       width: 50%;
-       height: 175px;
-   }
-        
+        /*  color: $color-principal; */
+        margin: 1rem;
+        width: 50%;
+        height: 175px;
+    }
+
 
     &__img {
         width: 10%;
@@ -25,48 +26,57 @@ header {
         margin: -50px;
         margin-right: 3px;
     }
+
     a {
-        color:$color-principal;
+        color: $color-principal;
         background-color: $backgran;
     }
 }
+
 .container__fluid1 {
     margin: 1px;
-    .navbar{
+
+    .navbar {
         margin: 5px;
+
         &-toggler {
             color: $color-principal;
         }
-        
+
     }
-    .offcanvas-body{
-        background-color:$color-navhome;
+
+    .offcanvas-body {
+        background-color: $color-navhome;
+
         .nav-item {
             color: $color-principal;
         }
+
         .nav-link {
             color: $color-principal;
         }
     }
+
     .offcanvas-header {
-        background-color:$color-navhome;
+        background-color: $color-navhome;
+
         .offcanvas-title {
             color: $color-principal;
         }
     }
-    
-    
+
+
     .dropdown-menu {
         background-color: $color-navhome;
+
         .dropdown-item {
             color: $color-principal;
         }
     }
-    
-    .btn {
-        color: white ;
-        background-color: $color-principal;
-        
-    }
-} 
 
+    .btn {
+        color: $texto-color;
+        background-color: $color-principal;
+
+    }
+}

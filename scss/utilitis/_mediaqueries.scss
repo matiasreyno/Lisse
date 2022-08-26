@@ -1,6 +1,6 @@
 /* Tablet */
 @media (min-width: 801px) and (max-width: 991px) {
-
+    /* h1 y logo */
 
     .logo {
         display: flex;
@@ -23,6 +23,7 @@
         }
     }
 
+    /* index */
     .carrusel-index {
         width: 50%;
         height: 5%;
@@ -31,199 +32,198 @@
         margin-top: 10vw;
         margin-bottom: 10vw;
         border: $bordes;
-        
-    }
-    /* ingredientes */
-.ingre__jabones {
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
 
-    img {
+    }
+
+    /* ingredientes */
+    .ingre__jabones {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+
+        img {
+            width: 90%;
+            height: 90%;
+        }
+
+        p {
+            width: 83%;
+            height: 10%;
+            font-size: 3vw;
+            background-color: $backgran;
+            margin-top: 10px;
+        }
+    }
+
+    .video {
+        margin: 2vw;
+        margin-left: 5vw;
         width: 90%;
         height: 90%;
     }
 
-    p {
-        width: 83%;
-        height: 10%;
-        font-size: 3vw;
-        background-color: $backgran;
-        margin-top: 10px;
-    }
-}
-
-.video {
-    margin: 2vw;
-    margin-left: 5vw;
-    width: 90%;
-    height: 90%;
-}
-
-footer {
-    width: 50vw;
-    margin: auto;
-    margin-top: 20px;
-    color: orangered;
-
-
-
-}
-
-/* Productos */
-.productos__jabon {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-
-    &__jab4 {
-        width: 70vw;
-        height: 70vw;
-        margin: 10px;
-        padding: 3vw;
-        align-items: center;
-    }
-
-    &__jab5 {
-        width: 70vw;
-        height: 70vw;
+    footer {
+        width: 50vw;
         margin: auto;
-        padding: 3vw;
-        align-items: center;
+        margin-top: 20px;
+
     }
 
-    &__jab6 {
-        width: 70vw;
-        height: 70vw;
-        margin: auto;
-        padding: 3vw;
-        align-items: center;
+    /* Productos */
+    .productos__jabon {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        &__jab4 {
+            width: 70vw;
+            height: 70vw;
+            margin: 10px;
+            padding: 3vw;
+            align-items: center;
+        }
+
+        &__jab5 {
+            width: 70vw;
+            height: 70vw;
+            margin: auto;
+            padding: 3vw;
+            align-items: center;
+        }
+
+        &__jab6 {
+            width: 70vw;
+            height: 70vw;
+            margin: auto;
+            padding: 3vw;
+            align-items: center;
+        }
+
+        &__jab7 {
+            width: 30vw;
+            height: 30vw;
+            margin: auto;
+            padding: 3vw;
+            align-items: center;
+        }
+
+        img {
+            height: 50%;
+        }
+
+        p {
+            font-size: 3vw;
+        }
     }
 
-    &__jab7 {
-        width: 30vw;
-        height: 30vw;
-        margin: auto;
-        padding: 3vw;
-        align-items: center;
+    /* promociones */
+    .promo__jabon {
+        display: flex;
+        flex-direction: column;
+        margin: 20%;
+
+        p {
+            font-size: 15px;
+        }
+
+        img {
+            width: 250px;
+        }
+
     }
 
-    img {
-        height: 50%;
-    }
-
-    p {
-        font-size: 3vw;
-    }
-}
-
-/* promociones */
-.promo__jabon {
-    display: flex;
-    flex-direction: column;
-    margin: 20%;
-
-    p {
-        font-size: 15px;
-    }
-
-    img {
-        width: 250px;
-    }
-
-
-
-}
-
-.animación1 {
-    font-size: 2vw;
-    margin: 2vw;
-    padding: 1vw;
-
-}
-
-@keyframes efectoh2 {
-    0% {
-        color: indianred;
-    }
-
-    25% {
-        color: mediumvioletred;
-    }
-
-    50% {
-        color: maroon;
-        transform: rotateX(25deg);
-        font-size: 7vw;
-    }
-
-    75% {
-        color: yellow;
-    }
-
-    100% {
-        color: indianred;
-    }
-
-
-}
-
-/* contacto */
-header {
-    margin: 5px;
-
-}
-
-
-.contacto {
-    margin: 2%;
-
-    &__net {
-        margin: 30px;
-        font-size: 4vw;
-    }
-
-    &__imput {
-        margin: 15px;
-        font-size: 3vw;
-        text-align: center;
-    }
-
-    .container-fluid {
-        margin: auto;
-        padding: 10px;
-    }
-
-    &__botones {
-        margin: auto;
+    .animación1 {
+        font-size: 2vw;
+        margin: 2vw;
         padding: 1vw;
-        text-align: center;
-        font-size: 5vw;
-        color: white;
-        background-color: $backgran;
-        margin-left: 25%;
+
     }
 
-    &__botones1 {
-        margin: auto;
-        padding: 1vw;
-        text-align: center;
-        font-size: 5vw;
-        color: white;
-        background-color: $backgran;
+    @keyframes efectoh2 {
+        0% {
+            color: indianred;
+        }
+
+        25% {
+            color: mediumvioletred;
+        }
+
+        50% {
+            color: maroon;
+            transform: rotateX(25deg);
+            font-size: 7vw;
+        }
+
+        75% {
+            color: yellow;
+        }
+
+        100% {
+            color: indianred;
+        }
+
+
+    }
+
+    /* contacto */
+    header {
+        margin: 5px;
+
+    }
+
+
+    .contacto {
+        margin: 2%;
+
+        &__net {
+            margin: 30px;
+            font-size: 4vw;
+        }
+
+        &__imput {
+            margin: 15px;
+            font-size: 3vw;
+            text-align: center;
+        }
+
+        .container-fluid {
+            margin: auto;
+            padding: 10px;
+        }
+
+        &__botones {
+            margin: auto;
+            padding: 1vw;
+            text-align: center;
+            font-size: 5vw;
+            color: $texto-color;
+            background-color: $backgran;
+            margin-left: 25%;
+        }
+
+        &__botones1 {
+            margin: auto;
+            padding: 1vw;
+            text-align: center;
+            font-size: 5vw;
+            color: $texto-color;
+            background-color: $backgran;
+        }
+
+    }
+
+    .mapa {
+        margin: 2vw;
+        margin-left: 5vw;
+        width: 80%;
+        height: 90%;
     }
 
 }
-.mapa {
-    margin: 2vw;
-    margin-left: 5vw;
-    width: 80%;
-    height: 90%;
-}
 
-}
 @media (min-width: 577px) and (max-width: 800px) {
-   /* h1 */
+
+    /* h1 y logo */
     .logo {
         display: flex;
         flex-direction: row;
@@ -247,12 +247,12 @@ header {
     }
 
 
-/* h2 */
+    /* h2 */
     .titu {
         font-size: 6vw;
     }
 
- /* index */
+    /* index */
     .carrusel-index {
         width: 50%;
         height: 5%;
@@ -263,20 +263,22 @@ header {
         border: $bordes;
 
     }
+
     .texto__index {
         font-size: 3vw;
     }
+
     /* ingredientes */
     .ingre__jabones {
         display: flex;
         flex-direction: column;
         margin: 30px;
-    
+
         img {
             width: 32rem;
             height: 20rem;
         }
-    
+
         p {
             width: 83%;
             height: 10%;
@@ -285,53 +287,67 @@ header {
             margin-top: 10px;
         }
     }
-    .video{
+
+    .video {
         margin: auto;
         margin-left: 2.5%;
         width: 35rem;
         height: 20rem;
     }
+
     /* promociones */
     .promo__jabon {
         img {
-        width: 200px;
+            width: 200px;
+        }
+
+        p {
+            font-size: 10px;
+        }
     }
-    p {
-        font-size: 10px;
-    }
-}
+
     /* contacto */
     .contacto {
         margin: 5%;
+
         &__net {
             font-size: 7vw;
         }
+
         &__imput {
             text-align: center;
             font-size: 4vw;
             margin: 1vw;
             padding: 2vw;
         }
+
+        &__botones {
+            margin-left: 20%;
+        }
+
         &__botones1 {
             margin: 0rem;
             margin-right: 0px;
         }
     }
-    .mapa{
-        margin: 2vw;
-        margin-left: 10vw;
+
+    .mapa {
+        margin: auto;
         width: 35rem;
         height: 20rem;
     }
+
     /* productos */
-    .productos__jabon{
+    .productos__jabon {
         display: flex;
         flex-direction: column;
+
         img {
             width: 32rem;
             height: 20rem;
             border: $bordes;
         }
+
         p {
             width: 32rem;
             height: 20rem;
@@ -342,24 +358,14 @@ header {
         }
     }
 
-   
+
 }
-
-
-
-
-
-
-
 
 
 /* Movil */
 @media (min-width:320px) and (max-width: 576px) {
 
-
-   
-
-
+    /* h1 y logo */
     .logo {
         display: flex;
         flex-direction: row;
@@ -381,13 +387,12 @@ header {
         }
     }
 
-
-
+    /* h2 */
     .titu {
         font-size: 9vw;
     }
 
- /* index */
+    /* index */
     .carrusel-index {
         width: 50%;
         height: 5%;
@@ -398,12 +403,14 @@ header {
         border: $bordes;
 
     }
+
     .texto__index {
         h3 {
             font-size: 6vw;
         }
+
         p {
-            font-size: 4vw;
+            font-size: 3vw;
         }
     }
 
@@ -452,12 +459,15 @@ header {
             margin-top: 10px;
         }
     }
+
     .info {
         display: flex;
         flex-direction: column;
+
         h3 {
             font-size: 7vw;
         }
+
         img {
             width: 90%;
             height: 90%;
@@ -465,9 +475,11 @@ header {
             margin-left: 5%;
 
         }
-        p{
+
+        p {
             font-size: 3vw;
         }
+
         h4 {
             font-size: 5vw;
         }
@@ -485,19 +497,22 @@ header {
         height: 50vw;
         margin: auto;
         margin-top: 20px;
+
         .img-size {
             width: 22vw;
             height: 40vw;
             gap: 10vw;
         }
+
         p {
             font-size: 2.5vw;
         }
+
         img {
             width: 20vw;
             height: 20vw;
         }
-        
+
 
 
 
@@ -633,7 +648,7 @@ header {
             padding: 1vw;
             text-align: center;
             font-size: 5vw;
-            color: white;
+            color: $texto-color;
             background-color: $backgran;
             margin-left: 25%;
         }
@@ -643,12 +658,13 @@ header {
             padding: 1vw;
             text-align: center;
             font-size: 5vw;
-            color: white;
+            color: $texto-color;
             background-color: $backgran;
         }
 
     }
-    .mapa{
+
+    .mapa {
         margin: 2vw;
         margin-left: 5vw;
         width: 90%;

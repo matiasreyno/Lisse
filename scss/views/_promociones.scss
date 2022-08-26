@@ -4,13 +4,14 @@
     margin: 2rem;
     padding: 1rem;
     text-align: center;
-    color:$color-navhome;
+    color: $color-navhome;
     text-decoration: underline;
     animation-name: efectoh2;
     animation-iteration-count: infinite;
     animation-duration: 5s;
 
 }
+
 @keyframes efectoh2 {
     0% {
         color: $color-navhome;
@@ -22,7 +23,6 @@
 
     50% {
         color: rgb(126, 148, 65);
-       /*  transform: rotateX(25deg); */
         font-size: 2rem;
     }
 
@@ -31,7 +31,7 @@
     }
 
     100% {
-        color:  $color-navhome;
+        color: $color-navhome;
     }
 }
 
@@ -43,12 +43,14 @@
         gap: 2rem;
         margin: 8rem;
         align-items: start;
+
     }
 
     &__jabon img {
         width: 40%;
         height: 40%;
         border: $bordes;
+
     }
 
     &__jabones1 {
@@ -69,10 +71,10 @@
 
     &__jabon p {
         display: inline-flex;
-        font-size: 1,5rem;
+        font-size: 1, 5rem;
         text-align: justify;
         background-color: $backgran;
-        color: white;
+        color: $texto-color;
         margin: 10px;
     }
 }
